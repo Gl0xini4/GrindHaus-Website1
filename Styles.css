@@ -1,0 +1,155 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+  color: #1d1d1d;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.site-header {
+  background: #111;
+  padding: 1em 0;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #e63946;
+}
+
+/* Hero */
+.hero {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  color: black;
+  text-align: center;
+  padding: 6em 1em;
+}
+
+.hero-content h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  background: #e63946;
+  color: white;
+  padding: 0.8em 2em;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff4f5e;
+}
+
+/* Products */
+.products {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.products h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2em;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1em;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Newsletter */
+.newsletter {
+  background: #111;
+  color: white;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.8em;
+  width: 250px;
+  border: none;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.8em 1.5em;
+  border: none;
+  background: #e63946;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.newsletter button:hover {
+  background: #ff4f5e;
+}
+
+/* Footer */
+.site-footer {
+  background: #222;
+  color: white;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.site-footer .social-icons a {
+  margin: 0 0.5em;
+  color: #e63946;
+  font-weight: bold;
+}
